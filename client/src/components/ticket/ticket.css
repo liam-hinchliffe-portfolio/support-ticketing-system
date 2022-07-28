@@ -1,0 +1,21 @@
+.ticket-preview-row {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    background: #eee;
+}
+
+.ticket-preview-row:nth-child(2n) {
+    background: white;
+}
+
+.ticket-preview-row button {
+    margin-right: .25rem
+}
+
+.ticket-preview-row>div {
+    margin-right: 1rem;
+}
+
+.ticket-preview-row>div:last-child {
+    margin-right: unset;
+}

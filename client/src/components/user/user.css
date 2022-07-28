@@ -1,0 +1,10 @@
+.user-row {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background: #eee;
+}
+
+.user-row:nth-child(2n) {
+    background: white;
+}

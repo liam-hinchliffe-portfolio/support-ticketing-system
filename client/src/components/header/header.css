@@ -1,0 +1,27 @@
+header {
+    padding: 1rem 0;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-right: 3rem;
+}
+
+header .nav-items .nav-item {
+    margin-right: 2rem;
+    letter-spacing: 0.25rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    header>div {
+        flex-direction: column;
+    }
+    .nav-items {
+        justify-content: center;
+    }
+}
